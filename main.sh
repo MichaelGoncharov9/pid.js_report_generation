@@ -1,5 +1,5 @@
 #!/bin/bash
 
 . get_info.sh
-#. check_pid.sh
+. is_prime.sh
 . print_form.sh
