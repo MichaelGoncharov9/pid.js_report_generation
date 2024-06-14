@@ -1,4 +1,5 @@
 #!/bin/bash
+ALL_PID=$(ps aux | wc -l) # всего процессов.
 
 echo "[" > report.js
 for nr in $(seq 2 $ALL_PID); do
