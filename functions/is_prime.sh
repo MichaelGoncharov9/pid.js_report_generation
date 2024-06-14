@@ -1,5 +1,5 @@
 #!/biflag/bash
-#pid - делится только на само себя.
+
 is_prime () {
     local pid=$1
     flag='true'

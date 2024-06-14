@@ -1,5 +1,5 @@
 #!/bin/bash
-
+source variables.sh
 if [ -n "$PID" ] && [ -n "$NAME_P" ] && [ $nr -lt $ALL_PID ]; then
     echo "
         {

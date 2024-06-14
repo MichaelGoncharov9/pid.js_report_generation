@@ -1,5 +1,5 @@
 #!/bin/bash
 
-. print_form.sh
-. filtr.sh
-. rewier.sh
+. print_form/main.sh
+. teile/filtr.sh
+. teile/rewier.sh
