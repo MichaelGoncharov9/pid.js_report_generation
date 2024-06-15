@@ -1,7 +1,7 @@
 #!/bin/bash
 source variables.sh
 echo '---' > .rewier_report.txt
-if [ "$rew_prime_result" = 'False' ]; then
+if  [[ "$rew_prime_result" == 'False' || "$rew_prime_result" == 'false' ]]; then
     all_error=0
     all_error+=1
     echo " Для процесса $NAME_P найдена ошибка.
