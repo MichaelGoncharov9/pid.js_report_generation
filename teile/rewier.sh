@@ -8,5 +8,6 @@ read -p "Проверить на ошибки?(y/n) " value
 if [[ $value == 'Y' || $value == 'y' ]]; then
     cat .rewier_report.txt
 else
+    rm .rewier_report.txt
     echo "Без проверки."
 fi
