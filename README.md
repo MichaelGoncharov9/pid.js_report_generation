@@ -33,6 +33,7 @@
 
 # Инструкция для запуска.
 
+```bash
 docker build -t pid:1.0 .
 docker run -it pid:1.0
-
+```
