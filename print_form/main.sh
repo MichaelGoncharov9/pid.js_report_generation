@@ -1,6 +1,7 @@
 #!/bin/bash
 ALL_PID=$(ps aux | wc -l) # всего процессов.
 
+touch .rewier_report.txt
 echo "[" > report.js
 for nr in $(seq 2 $ALL_PID); do
     source variables.sh
